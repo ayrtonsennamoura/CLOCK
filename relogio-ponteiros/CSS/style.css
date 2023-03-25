@@ -18,16 +18,16 @@ main {
 }
 
 .clock {
-  min-width: 600px;
-  min-height: 600px;
-  background-color: rgb(20, 20, 20);
-  color: rgb(0, 174, 255);
-  border-radius: 600px;
-  border: 15px double grey;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 600px;
+  min-height: 600px;
+  border-radius: 600px;
+  color: rgb(0, 174, 255);
+  background-color: rgb(12, 12, 12);
+  box-shadow: -8px -8px 16px rgb(0, 0, 0), 8px 8px 16px rgb(0, 0, 0);
 }
 
 .number {
